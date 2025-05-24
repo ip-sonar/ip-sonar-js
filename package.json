@@ -1,6 +1,6 @@
 {
   "name": "@ip-sonar/ip-sonar-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IP-Sonar.com JS SDK",
   "type": "module",
   "main": "dist/index.js",
