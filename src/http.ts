@@ -1,4 +1,5 @@
 import type { APIError, LookupParams, ErrorMessageResponse } from './types';
+import { USER_AGENT } from './version';
 
 /**
  * Creates an APIError with additional context
@@ -86,7 +87,7 @@ export class HttpClient {
     // Set up headers
     const headers: Record<string, string> = {
       'Content-Type': 'application/json',
-      'User-Agent': 'ip-sonar-js/1.0.0',
+      'User-Agent': USER_AGENT,
       ...((fetchOptions.headers as Record<string, string>) || {}),
     };
 

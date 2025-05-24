@@ -25,6 +25,9 @@
 // Re-export the main client class and factory function
 export { IPSonarClient, createClient } from './client';
 
+// Re-export version information
+export { SDK_VERSION, USER_AGENT } from './version';
+
 // Re-export all types for TypeScript users
 export type {
   IPGeolocation,
